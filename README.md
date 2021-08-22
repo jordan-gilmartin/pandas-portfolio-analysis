@@ -54,3 +54,10 @@ I analyzed the data to see if any of the portfolios outperform the stock market 
 - I chose one portfolio to calculate and plot the 30 day rolling beta between it and the S&P 500
 
 ![Soros Beta](Images/BetaSoros.png)
+
+**Sharpe Ratios**
+
+- I used the daily returns to calculate and visualize the Sharpe ratios using a bar plot
+- Analyzing the results I was able to determine which strategies outperformed
+
+![Sharpe Ratios](Images/SharpeRatios.png)
