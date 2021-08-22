@@ -55,9 +55,23 @@ I analyzed the data to see if any of the portfolios outperform the stock market 
 
 ![Soros Beta](Images/BetaSoros.png)
 
-**Sharpe Ratios**
+-**Sharpe Ratios**
 
 - I used the daily returns to calculate and visualize the Sharpe ratios using a bar plot
 - Analyzing the results I was able to determine which strategies outperformed
 
 ![Sharpe Ratios](Images/SharpeRatios.png)
+
+
+
+**Custom Portfolio**
+
+- I used Google Finance to grab data for 3 different stocks (Google, Apple, and Costco)
+- I downloaded the data as CSV files and calculated the portfolio returns
+- I calculated the weighted returns for the portfolio, assuming equal number of shares per stock
+- I ran the following analysis:
+  - Annualized Standard Deviation
+  - Calculate and plot rolling standard deviation with a 21 day window
+  - Calculate and plot correlation
+  - Calculate and plot beta compared to S&P 500
+  - Calculated Sharpe ratios and generate bar plot
